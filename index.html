@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="#" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+		<meta name ="description" content="Blog">
+		<meta name="author" content="Auteur">
+
+		<title>Atelier : Miniblog JS</title>
+
+		<link rel="canonical" href="#" />
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Miniblog JS</h1>
+						<h2>Projet de formation avec GG</h2>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="actu">Dernières actualités :</h3>
+						<div class="blog">
+							<!-- Affichage des articles de blog -->
+							<!-- Un article de blog de démo -->
+							<div class="blog-header">Le premier article</div>
+							<div class="blog-body">Ceci est le contenu de mon article. Il s'agit d'un texte de démonstration afin de visualiser la disposition d'un article de blog. N'hésitez pas à ajouter votre article en utilisant le formulaire joint. Amusez-vous :)</div>
+							<p class="blog-author">Auteur: Rachel BdN</p>
+							<p class="blog-date">Mon Sep 30 2019 22:48:59 GMT+0200 (heure d’été d’Europe centrale)</p>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<form id="contentForm">
+							<div class="form-group">
+								<h3>Proposer un article de blog:</h3>
+								<br>
+									<!-- formulaire -->
+									<label for="author">Auteur :</label>
+									<input type="text" id="author" class="form-control" required />
+									<label for="email" class="col-form-label">e-Mail :</label>
+									<input type="text" id="email" class="form-control" />
+									<label for="title">Titre :</label>
+									<input type="text" id="title" class="form-control" required />
+									<label for="content">Contenu :</label>
+									<textarea id="content" class="form-control" rows="5" required />
+									</textarea>
+									<input type="hidden" id="date"/>
+									<p><button type="submit" id="submit" class="contactButton form-control btn-dark">Valider</button></p>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p>Copyright 2019 - Premiers pas sur JS - Rachel Nething</p>
+		</footer>
+
+	</body>
+	<!-- script -->
+	<script type="text/javascript" src="assets/scripts/script.js"></script>
+</html>
